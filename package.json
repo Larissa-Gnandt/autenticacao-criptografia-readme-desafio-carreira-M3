@@ -1,0 +1,29 @@
+{
+  "name": "autenticacao-criptografia-readme-desafio-carreira-m3",
+  "version": "1.0.0",
+  "description": "Criação de README para o projeto de criptografia e autenticação",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon ./src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Larissa-Gnandt/autenticacao-criptografia-readme-desafio-carreira-M3.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Larissa-Gnandt/autenticacao-criptografia-readme-desafio-carreira-M3/issues"
+  },
+  "homepage": "https://github.com/Larissa-Gnandt/autenticacao-criptografia-readme-desafio-carreira-M3#readme",
+  "dependencies": {
+    "bcrypt": "^5.1.0",
+    "express": "^4.18.2",
+    "jsonwebtoken": "^9.0.1",
+    "pg": "^8.11.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+}
